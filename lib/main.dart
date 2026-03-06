@@ -1,7 +1,6 @@
 import 'package:app_tp2/views/page_accueil.dart';
 import 'package:app_tp2/views/page_boutique.dart';
 import 'package:app_tp2/views/page_compteur.dart';
-import 'package:app_tp2/views/page_profil.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,7 +22,6 @@ class MonApplication extends StatelessWidget {
         "/page-accueil": (context) => PageAccueil(),
         "/page-compteur": (context) => PageCompteur(),
         "/page-boutique": (context) => PageBoutique(),
-        "/page-profil": (context) => PageProfil(),
       },
       onUnknownRoute: (settings) =>
           MaterialPageRoute(builder: (context) => PageAccueil()),
